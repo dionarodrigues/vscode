@@ -1,0 +1,91 @@
+{
+	"editor.tabSize": 2,
+	"editor.fontSize": 15,
+	"editor.lineHeight": 25,
+	"editor.fontFamily": "JetBrains Mono",
+	"editor.fontLigatures": true,
+	"editor.semanticHighlighting.enabled": false,
+	"editor.rulers": [80, 120],
+
+	"workbench.startupEditor": "newUntitledFile",
+	"terminal.integrated.fontSize": 14,
+
+	"workbench.colorTheme": "Dracula",
+	"editor.guides.bracketPairs": "active",
+
+	"workbench.iconTheme": "material-icon-theme",
+	"material-icon-theme.languages.associations": {
+		"dotenv": "tune"
+	},
+	"material-icon-theme.files.associations": {
+		"tsconfig.json": "tune",
+		"*.webpack.js": "webpack"
+	},
+	"material-icon-theme.folders.associations": {
+		"repositories": "mappings",
+		"providers": "include",
+		"_shared": "shared",
+		"eslint-config": "tools"
+	},
+
+	"explorer.compactFolders": false,
+	"editor.renderLineHighlight": "gutter",
+	"workbench.editor.labelFormat": "short",
+	"extensions.ignoreRecommendations": true,
+
+	"breadcrumbs.enabled": true,
+	"editor.parameterHints.enabled": false,
+	"explorer.confirmDragAndDrop": false,
+	"explorer.confirmDelete": false,
+
+	"files.associations": {
+		".stylelintrc": "json",
+		".prettierrc": "json",
+		"*.tsx": "typescriptreact",
+		".env.*": "dotenv"
+	},
+
+	"javascript.suggest.autoImports": true,
+	"typescript.suggest.autoImports": true,
+	"material-icon-theme.activeIconPack": "nest",
+	"terminal.integrated.profiles.osx": {
+		"bash": {
+			"path": "bash",
+			"args": ["-l"],
+			"icon": "terminal-bash"
+		},
+		"zsh": {
+			"path": "zsh",
+			"args": ["-l"]
+		},
+		"fish": {
+			"path": "fish",
+			"args": ["-l"]
+		},
+		"tmux": {
+			"path": "tmux",
+			"icon": "terminal-tmux"
+		},
+		"pwsh": {
+			"path": "pwsh",
+			"icon": "terminal-powershell"
+		},
+		"dash": {
+			"path": "/bin/dash"
+		},
+		"ksh": {
+			"path": "/bin/ksh"
+		}
+	},
+	"terminal.integrated.defaultProfile.osx": "bash",
+	"prettier.singleQuote": true,
+	"editor.formatOnSave": true,
+	"prettier.arrowParens": "avoid",
+	"prettier.bracketSpacing": false,
+	"prettier.useTabs": true,
+	"[javascript]": {
+		"editor.defaultFormatter": "esbenp.prettier-vscode"
+	},
+	"editor.defaultFormatter": "esbenp.prettier-vscode",
+	"editor.bracketPairColorization.enabled": true
+}
